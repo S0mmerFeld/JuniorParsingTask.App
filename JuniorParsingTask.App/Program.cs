@@ -11,7 +11,7 @@ namespace JuniorParsingTask.App
 
             Node itemres;
 
-            Console.WriteLine(tree.TryGetNode("xyz", out itemres));
+            Console.WriteLine(tree.TryGetNode("parsing", out itemres));
             Console.ReadKey();
         }
     }
